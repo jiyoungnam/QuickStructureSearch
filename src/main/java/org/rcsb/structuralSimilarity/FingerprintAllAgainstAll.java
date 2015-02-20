@@ -31,7 +31,7 @@ public class FingerprintAllAgainstAll {
 
 	public static void main(String[] args ) throws FileNotFoundException
 	{
-		String path = "/Users/peter/Data/PDB_CHAINS/protein_chains_40_20150114_141156.seq";
+		String path = "src/test/resources/protein_chains_40_20150114_141156.seq";
 		String results = "/Users/peter/Data/ProteinSimilarity/FingerPrintAllAgainstAll20150111.csv";
 
 		FingerprintAllAgainstAll aaa = new FingerprintAllAgainstAll();
